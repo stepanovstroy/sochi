@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="ru" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Степанов Строй Сочи — Комплексный ремонт домов и коттеджей под ключ</title>
+  <meta name="description" content="Премиальный ремонт домов, вилл и коттеджей в Сочи, Красной Поляне, Адлере и Сириусе. Прозрачные расчеты в 101 Group, малярный центр Q4, идеальная чистота на объекте." />
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              bg: '#0D0F12',
+              card: '#151921',
+              cardHover: '#1D222D',
+              border: '#262D3B',
+              accent: '#E5A93C',
+              accentHover: '#CCA92A',
+              muted: '#8D99A8',
+              text: '#F1F5F9'
+            }
+          },
+          fontFamily: {
+            heading: ['Montserrat', 'sans-serif'],
+            sans: ['Plus Jakarta Sans', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body {
+      background-color: #0D0F12;
+      color: #F1F5F9;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+    .accent-gradient-text {
+      background: linear-gradient(135deg, #FFFFFF 30%, #E5A93C 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .gold-glow {
+      box-shadow: 0 0 30px -5px rgba(229, 169, 60, 0.25);
+    }
+  </style>
+</head>
+<body class="selection:bg-brand-accent selection:text-black">
+
+  <!-- ================= ШАПКА ================= -->
+  <header class="fixed top-0 left-0 w-full z-50 bg-[#0D0F12]/90 backdrop-blur-md border-b border-brand-border/60">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      
+      <!-- Логотип -->
+      <a href="#" class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-xl bg-brand-accent flex items-center justify-center text-black font-black text-xl font-heading shadow-md">
+          С
+        </div>
+        <div>
+          <span class="text-base sm:text-lg font-black tracking-tight text-white font-heading block leading-none">СТЕПАНОВ СТРОЙ</span>
+          <span class="text-[10px] sm:text-[11px] font-semibold text-brand-accent tracking-widest uppercase">Сочи • Дома и Коттеджи</span>
+        </div>
+      </a>
+
+      <!-- Меню -->
+      <nav class="hidden xl:flex items-center gap-6 text-xs font-medium text-gray-300 uppercase tracking-wider">
+        <a href="#formats" class="hover:text-brand-accent transition">Форматы</a>
+        <a href="#calc" class="hover:text-brand-accent transition">Калькулятор</a>
+        <a href="#projects" class="hover:text-brand-accent transition">Наши объекты</a>
+        <a href="#included" class="hover:text-brand-accent transition">Что входит</a>
+        <a href="#101group" class="hover:text-brand-accent transition">101 Group</a>
+        <a href="#clean" class="hover:text-brand-accent transition">Чистота</a>
+        <a href="#contacts" class="hover:text-brand-accent transition">Контакты</a>
+      </nav>
+
+      <!-- Контакты и мессенджеры -->
+      <div class="flex items-center gap-3">
+        <div class="hidden sm:flex flex-col text-right">
+          <a href="tel:+79000000000" class="text-sm font-bold text-white hover:text-brand-accent transition">8 (800) 000-00-00</a>
+          <span class="text-[10px] text-brand-muted">Сочи • Красная Поляна</span>
+        </div>
+
+        <a href="https://t.me/stepanovstroy_sochi" target="_blank" class="flex items-center gap-1.5 bg-[#229ED9]/15 hover:bg-[#229ED9]/25 text-[#229ED9] border border-[#229ED9]/30 text-xs font-semibold px-3 py-2 rounded-xl transition">
+          <i data-lucide="send" class="w-3.5 h-3.5"></i>
+          <span class="hidden sm:inline">Telegram</span>
+        </a>
+
+        <a href="https://wa.me/79000000000" target="_blank" class="flex items-center gap-1.5 bg-[#25D366]/15 hover:bg-[#25D366]/25 text-[#25D366] border border-[#25D366]/30 text-xs font-semibold px-3 py-2 rounded-xl transition">
+          <i data-lucide="message-circle" class="w-3.5 h-3.5"></i>
+          <span class="hidden sm:inline">WhatsApp</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ================= ГЛАВНЫЙ ЭКРАН ================= -->
+  <section class="pt-32 pb-16 lg:pt-40 lg:pb-24 relative overflow-hidden">
+    <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[350px] bg-brand-accent/10 rounded-full blur-[140px] pointer-events-none"></div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div class="grid lg:grid-cols-12 gap-12 items-center">
+        
+        <div class="lg:col-span-7 space-y-6">
+          <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-brand-card border border-brand-border text-xs font-semibold text-brand-accent">
+            <i data-lucide="shield-check" class="w-3.5 h-3.5"></i>
+            Прозрачный ремонт домов и вилл в Сочи через 101 Group
+          </div>
+
+          <h1 class="text-3xl sm:text-5xl lg:text-6xl font-black font-heading leading-[1.15] accent-gradient-text">
+            Комплексный ремонт домов и коттеджей
+          </h1>
+
+          <p class="text-base sm:text-lg text-gray-300 leading-relaxed font-light">
+            Берём ремонт дома как <strong class="text-white font-semibold">единый проект</strong>: строительные работы, премиальные материалы, инженерия, комплектация и контроль качества от черновых этапов до чистовой сдачи.
+          </p>
+
+          <!-- 4 Ключевых триггера -->
+          <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-2">
+            <div class="p-3.5 bg-brand-card rounded-xl border border-brand-border">
+              <div class="text-brand-accent font-extrabold text-base font-heading">101 Group</div>
+              <div class="text-[11px] text-brand-muted mt-1 leading-tight">Прозрачный баланс и отчёты онлайн</div>
+            </div>
+            <div class="p-3.5 bg-brand-card rounded-xl border border-brand-border">
+              <div class="text-brand-accent font-extrabold text-base font-heading">Чистота 5★</div>
+              <div class="text-[11px] text-brand-muted mt-1 leading-tight">Обеспыливание и защита отделки</div>
+            </div>
+            <div class="p-3.5 bg-brand-card rounded-xl border border-brand-border">
+              <div class="text-brand-accent font-extrabold text-base font-heading">Q3 / Q4</div>
+              <div class="text-[11px] text-brand-muted mt-1 leading-tight">Малярка под боковой свет</div>
+            </div>
+            <div class="p-3.5 bg-brand-card rounded-xl border border-brand-border">
+              <div class="text-brand-accent font-extrabold text-base font-heading">Под ключ</div>
+              <div class="text-[11px] text-brand-muted mt-1 leading-tight">Инженерия + отделка в Сочи</div>
+            </div>
+          </div>
+
+          <!-- Призывы к действию -->
+          <div class="flex flex-col sm:flex-row gap-4 pt-4">
+            <a href="#calc" class="inline-flex justify-center items-center gap-2.5 px-8 py-4 bg-brand-accent hover:bg-brand-accentHover text-black font-bold rounded-xl shadow-lg gold-glow transition">
+              <span>Рассчитать смету дома</span>
+              <i data-lucide="calculator" class="w-4 h-4"></i>
+            </a>
+            <a href="#projects" class="inline-flex justify-center items-center gap-2 px-6 py-4 bg-brand-card hover:bg-brand-cardHover border border-brand-border text-white font-semibold rounded-xl transition">
+              <span>Смотреть объекты в Сочи</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Преимущества в карточке -->
+        <div class="lg:col-span-5">
+          <div class="p-8 rounded-3xl bg-brand-card border border-brand-border relative overflow-hidden shadow-2xl space-y-6">
+            <div class="flex items-center justify-between pb-4 border-b border-brand-border">
+              <div>
+                <span class="text-xs text-brand-accent font-bold uppercase tracking-wider block">Степанов Строй</span>
+                <span class="text-base font-bold text-white">Стандарты загородного ремонта</span>
+              </div>
+              <div class="w-10 h-10 rounded-xl bg-brand-accent/15 flex items-center justify-center text-brand-accent">
+                <i data-lucide="award" class="w-5 h-5"></i>
+              </div>
+            </div>
+
+            <ul class="space-y-4 text-sm text-gray-300">
+              <li class="flex items-start gap-3">
+                <i data-lucide="check-circle" class="w-5 h-5 text-brand-accent shrink-0 mt-0.5"></i>
+                <span><strong>Прозрачные платежи:</strong> вы видите в приложении, на что уходит каждый рубль, остаток баланса и чеки.</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <i data-lucide="check-circle" class="w-5 h-5 text-brand-accent shrink-0 mt-0.5"></i>
+                <span><strong>Идеальный порядок:</strong> укрываем готовые покрытия, окна и двери, работаем с пылеудалением.</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <i data-lucide="check-circle" class="w-5 h-5 text-brand-accent shrink-0 mt-0.5"></i>
+                <span><strong>Инженерия + отделка:</strong> увязываем коммуникации, котельные и чистовой финиш без риска переделок.</span>
+              </li>
+            </ul>
+
+            <a href="#calc" class="w-full text-center py-3.5 bg-white/5 hover:bg-white/10 border border-white/10 text-white rounded-xl text-xs font-bold uppercase tracking-wider block transition">
+              Вызвать инженера на замер в Сочи
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ДВА ФОРМАТА СОТРУДНИЧЕСТВА ================= -->
+  <section id="formats" class="py-20 bg-[#11141A] border-y border-brand-border/60">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-16">
+        <span class="text-xs font-bold uppercase tracking-widest text-brand-accent">Сотрудничество</span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold font-heading text-white mt-2">Два формата взаимодействия</h2>
+        <p class="text-brand-muted mt-3 text-sm">Подбираем оптимальный формат под текущий статус готовности вашего дома</p>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-8">
+        <!-- 01 -->
+        <div class="p-8 rounded-3xl bg-brand-card border border-brand-border hover:border-brand-accent/50 transition relative group">
+          <div class="flex items-center justify-between mb-6">
+            <span class="text-4xl font-black font-heading text-brand-accent">01</span>
+            <span class="text-xs font-bold px-3 py-1 bg-brand-accent/15 text-brand-accent rounded-full border border-brand-accent/30">Комплекс</span>
+          </div>
+          <h3 class="text-2xl font-bold text-white mb-3 font-heading">Комплексный ремонт под ключ</h3>
+          <p class="text-gray-300 text-sm leading-relaxed mb-6">
+            Полный цикл реализации ремонта дома или коттеджа: общестроительные работы, материалы, инженерия, чистовая комплектация, доставка по Сочи, прорабский технадзор и сдача дома заказчику.
+          </p>
+          <div class="space-y-3 text-sm text-brand-muted border-t border-brand-border pt-5">
+            <div class="flex items-center gap-2.5 text-gray-300"><i data-lucide="check" class="w-4 h-4 text-brand-accent"></i> Единый договор и ответственность за весь дом</div>
+            <div class="flex items-center gap-2.5 text-gray-300"><i data-lucide="check" class="w-4 h-4 text-brand-accent"></i> Закупка и логистика всех черновых и чистовых материалов</div>
+            <div class="flex items-center gap-2.5 text-gray-300"><i data-lucide="check" class="w-4 h-4 text-brand-accent"></i> Все коммуникации (котельные, электрика, вентиляция, климат)</div>
+          </div>
+        </div>
+
+        <!-- 02 -->
+        <div class="p-8 rounded-3xl bg-brand-card border border-brand-border hover:border-brand-accent/50 transition relative group">
+          <div class="flex items-center justify-between mb-6">
+            <span class="text-4xl font-black font-heading text-brand-muted">02</span>
+            <span class="text-xs font-bold px-3 py-1 bg-white/5 text-gray-300 rounded-full border border-white/10">Финишный этап</span>
+          </div>
+          <h3 class="text-2xl font-bold text-white mb-3 font-heading">Узконаправленные малярные работы</h3>
+          <p class="text-gray-300 text-sm leading-relaxed mb-6">
+            Подготовка и финишная отделка стен и потолков премиального уровня: шпаклёвка, механизированная шлифовка, грунтование, покраска в 2 слоя, декоративные покрытия и контроль качества плоскостей под боковым светом.
+          </p>
+          <div class="space-y-3 text-sm text-brand-muted border-t border-brand-border pt-5">
+            <div class="flex items-center gap-2.5 text-gray-300"><i data-lucide="check" class="w-4 h-4 text-brand-accent"></i> Подготовка поверхностей под покраску по стандарту Q3/Q4</div>
+            <div class="flex items-center gap-2.5 text-gray-300"><i data-lucide="check" class="w-4 h-4 text-brand-accent"></i> Работа с лестничными маршами, высокими потолками и вторым светом</div>
+            <div class="flex items-center gap-2.5 text-gray-300"><i data-lucide="check" class="w-4 h-4 text-brand-accent"></i> Безвоздушное нанесение и беспылевой инструмент</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= КАЛЬКУЛЯТОР / КВИЗ ================= -->
+  <section class="py-20 relative" id="calc">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="p-8 sm:p-12 rounded-3xl bg-brand-card border border-brand-border shadow-2xl relative overflow-hidden">
+        
+        <div class="text-center max-w-xl mx-auto mb-8">
+          <span class="text-xs font-bold uppercase tracking-widest text-brand-accent">КАЛЬКУЛЯТОР СТОИМОСТИ</span>
+          <h2 class="text-2xl sm:text-3xl font-black font-heading text-white mt-2">
+            Рассчитайте ориентировочную смету ремонта
+          </h2>
+          <p class="text-brand-muted text-xs sm:text-sm mt-2">
+            Ответьте на 4 вопроса — инженер подготовит детальный расчет и пришлет в удобный мессенджер
+          </p>
+        </div>
+
+        <form class="space-y-5" onsubmit="event.preventDefault(); alert('Спасибо! Заявка принята. Инженер Степанов Строй подготовит расчет и свяжется с вами.');">
+          
+          <div class="grid sm:grid-cols-2 gap-4">
+            <div>
+              <label class="block text-xs font-semibold text-gray-300 mb-1.5">1. Формат сотрудничества</label>
+              <select class="w-full bg-brand-bg border border-brand-border rounded-xl px-4 py-3.5 text-xs sm:text-sm text-white focus:outline-none focus:border-brand-accent">
+                <option>Комплексный ремонт коттеджа под ключ</option>
+                <option>Малярные работы премиум-класса (Q3/Q4)</option>
+                <option>Монтаж инженерии и котельной</option>
+              </select>
+            </div>
+            <div>
+              <label class="block text-xs font-semibold text-gray-300 mb-1.5">2. Площадь объекта (м²)</label>
+              <select class="w-full bg-brand-bg border border-brand-border rounded-xl px-4 py-3.5 text-xs sm:text-sm text-white focus:outline-none focus:border-brand-accent">
+                <option>до 150 м²</option>
+                <option>150 – 250 м²</option>
+                <option>250 – 400 м²</option>
+                <option>более 400 м²</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="grid sm:grid-cols-2 gap-4">
+            <div>
+              <label class="block text-xs font-semibold text-gray-300 mb-1.5">3. Локация в Сочи</label>
+              <select class="w-full bg-brand-bg border border-brand-border rounded-xl px-4 py-3.5 text-xs sm:text-sm text-white focus:outline-none focus:border-brand-accent">
+                <option>Красная Поляна / Эсто-Садок</option>
+                <option>Сириус / Олимпийский парк</option>
+                <option>Сочи (Центральный / Хостинский)</option>
+                <option>Адлерский район</option>
+                <option>Дагомыс / Лазаревское</option>
+              </select>
+            </div>
+            <div>
+              <label class="block text-xs font-semibold text-gray-300 mb-1.5">4. Дизайн-проект</label>
+              <select class="w-full bg-brand-bg border border-brand-border rounded-xl px-4 py-3.5 text-xs sm:text-sm text-white focus:outline-none focus:border-brand-accent">
+                <option>Есть готовый дизайн-проект</option>
+                <option>Есть планировочное решение</option>
+                <option>Проекта нет, нужна разработка</option>
+              </select>
+            </div>
+          </div>
+
+          <div>
+            <label class="block text-xs font-semibold text-gray-300 mb-1.5">Куда отправить расчет сметы?</label>
+            <div class="grid sm:grid-cols-12 gap-3">
+              <input type="text" required placeholder="Ваш номер телефона (+7...)" class="sm:col-span-8 bg-brand-bg border border-brand-border rounded-xl px-4 py-3.5 text-xs sm:text-sm text-white focus:outline-none focus:border-brand-accent">
+              <button type="submit" class="sm:col-span-4 py-3.5 bg-brand-accent hover:bg-brand-accentHover text-black font-extrabold text-xs sm:text-sm rounded-xl shadow-lg gold-glow transition">
+                Получить смету
+              </button>
+            </div>
+          </div>
+
+          <div class="flex items-center justify-center gap-6 pt-2 text-[11px] text-brand-muted">
+            <span class="flex items-center gap-1.5"><i data-lucide="check-circle" class="w-3.5 h-3.5 text-brand-accent"></i> Бесплатный выезд инженера</span>
+            <span class="flex items-center gap-1.5"><i data-lucide="check-circle" class="w-3.5 h-3.5 text-brand-accent"></i> Расчет через 101 Group</span>
+          </div>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= НАШИ ОБЪЕКТЫ В СОЧИ ================= -->
+  <section id="projects" class="py-20 bg-[#11141A] border-y border-brand-border/60">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
+        <div>
+          <span class="text-xs font-bold uppercase tracking-widest text-brand-accent">Портфолио</span>
+          <h2 class="text-3xl sm:text-4xl font-extrabold font-heading text-white mt-2">Реализованные объекты в Сочи</h2>
+          <p class="text-brand-muted mt-2 text-sm">Показываем уровень реализации загородных домов, вилл и чистового финиша</p>
+        </div>
+        <div class="text-xs text-brand-muted">
+          * Организуем показ текущих объектов в Сочи по согласованию
+        </div>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        
+        <!-- Объект 1 -->
+        <div class="bg-brand-card rounded-2xl border border-brand-border overflow-hidden group hover:border-brand-accent/50 transition">
+          <div class="h-56 bg-brand-border/40 relative overflow-hidden flex items-center justify-center">
+            <div class="text-brand-muted text-xs flex flex-col items-center gap-2">
+              <i data-lucide="home" class="w-8 h-8 text-brand-accent"></i>
+              <span>Фото объекта: Красная Поляна</span>
+            </div>
+            <span class="absolute top-3 left-3 bg-black/70 backdrop-blur-md text-brand-accent text-[11px] font-bold px-3 py-1 rounded-full border border-white/10">
+              340 м² • Красная Поляна
+            </span>
+          </div>
+          <div class="p-6 space-y-3">
+            <h4 class="text-lg font-bold text-white font-heading">Вилла в стиле Шале</h4>
+            <p class="text-xs text-brand-muted leading-relaxed">
+              Комплексный ремонт под ключ, котельная на 2 котла, приточно-вытяжная вентиляция с рекуперацией, теневые профили и малярка Q4.
+            </p>
+            <div class="pt-3 border-t border-brand-border flex items-center justify-between text-xs">
+              <span class="text-brand-muted">Срок: <strong>7 месяцев</strong></span>
+              <span class="text-brand-accent font-semibold">Под ключ</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Объект 2 -->
+        <div class="bg-brand-card rounded-2xl border border-brand-border overflow-hidden group hover:border-brand-accent/50 transition">
+          <div class="h-56 bg-brand-border/40 relative overflow-hidden flex items-center justify-center">
+            <div class="text-brand-muted text-xs flex flex-col items-center gap-2">
+              <i data-lucide="home" class="w-8 h-8 text-brand-accent"></i>
+              <span>Фото объекта: Сириус</span>
+            </div>
+            <span class="absolute top-3 left-3 bg-black/70 backdrop-blur-md text-brand-accent text-[11px] font-bold px-3 py-1 rounded-full border border-white/10">
+              260 м² • Сириус / Олимп. парк
+            </span>
+          </div>
+          <div class="p-6 space-y-3">
+            <h4 class="text-lg font-bold text-white font-heading">Коттедж в стиле High-Tech</h4>
+            <p class="text-xs text-brand-muted leading-relaxed">
+              Малярные работы премиум-класса, подготовка под покраску под боковой свет, крупноформатный керамогранит, гидроизоляция террас.
+            </p>
+            <div class="pt-3 border-t border-brand-border flex items-center justify-between text-xs">
+              <span class="text-brand-muted">Срок: <strong>5 месяцев</strong></span>
+              <span class="text-brand-accent font-semibold">Малярный центр</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Объект 3 -->
+        <div class="bg-brand-card rounded-2xl border border-brand-border overflow-hidden group hover:border-brand-accent/50 transition">
+          <div class="h-56 bg-brand-border/40 relative overflow-hidden flex items-center justify-center">
+            <div class="text-brand-muted text-xs flex flex-col items-center gap-2">
+              <i data-lucide="home" class="w-8 h-8 text-brand-accent"></i>
+              <span>Фото объекта: Хоста</span>
+            </div>
+            <span class="absolute top-3 left-3 bg-black/70 backdrop-blur-md text-brand-accent text-[11px] font-bold px-3 py-1 rounded-full border border-white/10">
+              420 м² • Хостинский район
+            </span>
+          </div>
+          <div class="p-6 space-y-3">
+            <h4 class="text-lg font-bold text-white font-heading">Загородная резиденция</h4>
+            <p class="text-xs text-brand-muted leading-relaxed">
+              Полный цикл: от заливки стяжек и монтажа сложной инженерии до чистовой декоративной штукатурки и чистового света.
+            </p>
+            <div class="pt-3 border-t border-brand-border flex items-center justify-between text-xs">
+              <span class="text-brand-muted">Срок: <strong>9 месяцев</strong></span>
+              <span class="text-brand-accent font-semibold">Под ключ</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 101 GROUP: ПРОЗРАЧНОСТЬ ================= -->
+  <section id="101group" class="py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid lg:grid-cols-12 gap-12 items-center">
+        
+        <div class="lg:col-span-6 space-y-6">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-accent/10 border border-brand-accent/20 text-xs font-bold text-brand-accent">
+            ПРОЗРАЧНЫЙ СЕРВИС 101 GROUP
+          </div>
+          <h2 class="text-3xl sm:text-4xl font-extrabold font-heading text-white leading-tight">
+            Полный контроль бюджета прямо в вашем смартфоне
+          </h2>
+          <p class="text-gray-300 text-sm leading-relaxed">
+            Мы работаем через единую специализированную систему <strong class="text-white">101 Group</strong>. Вы всегда точно знаете, на что уходит каждый рубль, за какие работы и материалы производится списание, и когда требуется следующий этап финансирования.
+          </p>
+
+          <div class="space-y-4 pt-2">
+            <div class="flex items-start gap-3.5 p-4 rounded-xl bg-brand-card border border-brand-border">
+              <i data-lucide="receipt" class="w-5 h-5 text-brand-accent shrink-0 mt-0.5"></i>
+              <div>
+                <h5 class="text-sm font-bold text-white">Все чеки и накладные в одном месте</h5>
+                <p class="text-xs text-brand-muted mt-1">Каждая закупка материала подтверждается чеком из магазина с фотофиксацией.</p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-3.5 p-4 rounded-xl bg-brand-card border border-brand-border">
+              <i data-lucide="pie-chart" class="w-5 h-5 text-brand-accent shrink-0 mt-0.5"></i>
+              <div>
+                <h5 class="text-sm font-bold text-white">Прозрачный остаток баланса</h5>
+                <p class="text-xs text-brand-muted mt-1">Вы заранее видите, когда заканчиваются средства на текущем этапе, без внезапных звонков и требований.</p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-3.5 p-4 rounded-xl bg-brand-card border border-brand-border">
+              <i data-lucide="check-square" class="w-5 h-5 text-brand-accent shrink-0 mt-0.5"></i>
+              <div>
+                <h5 class="text-sm font-bold text-white">Оплата только за принятые работы</h5>
+                <p class="text-xs text-brand-muted mt-1">Списание за выполненные объемы происходит строго после проверки прорабом и подтверждения заказчиком.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="lg:col-span-6 bg-brand-card p-8 rounded-3xl border border-brand-border relative">
+          <div class="space-y-4">
+            <div class="flex items-center justify-between pb-4 border-b border-brand-border">
+              <span class="text-xs font-bold text-brand-muted uppercase">Личный кабинет объекта</span>
+              <span class="text-xs bg-green-500/20 text-green-400 font-semibold px-2.5 py-1 rounded-full">Синхронизировано</span>
+            </div>
+            
+            <div class="space-y-2">
+              <div class="text-xs text-brand-muted">Текущий статус объекта:</div>
+              <div class="text-base font-bold text-white">Монтаж котельной и чистовая малярка Q4</div>
+            </div>
+
+            <div class="p-4 rounded-xl bg-brand-bg border border-brand-border space-y-3">
+              <div class="flex justify-between text-xs">
+                <span class="text-brand-muted">Общий прогресс работ:</span>
+                <span class="text-brand-accent font-bold">78%</span>
+              </div>
+              <div class="w-full bg-brand-card h-2 rounded-full overflow-hidden">
+                <div class="bg-brand-accent h-full w-[78%]"></div>
+              </div>
+            </div>
+
+            <div class="space-y-2 text-xs text-gray-300 pt-2">
+              <div class="flex justify-between py-1.5 border-b border-white/5">
+                <span>Черновые материалы (с чеками):</span>
+                <span class="font-bold text-white">Учтено 100%</span>
+              </div>
+              <div class="flex justify-between py-1.5 border-b border-white/5">
+                <span>Инженерные трассы:</span>
+                <span class="font-bold text-green-400">Принято технадзором</span>
+              </div>
+              <div class="flex justify-between py-1.5">
+                <span>Малярные работы (слой 1-2):</span>
+                <span class="font-bold text-brand-accent">В процессе</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ИДЕАЛЬНАЯ ЧИСТОТА НА ОБЪЕКТЕ ================= -->
+  <section id="clean" class="py-20 bg-[#11141A] border-y border-brand-border/60">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-16">
+        <span class="text-xs font-bold uppercase tracking-widest text-brand-accent">КУЛЬТУРА ПРОИЗВОДСТВА</span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold font-heading text-white mt-2">Идеальная чистота на объекте</h2>
+        <p class="text-brand-muted mt-2 text-sm">Мы не разводим грязь в вашем доме: порядок на площадке — это залог идеального качества отделки</p>
+      </div>
+
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="p-6 bg-brand-card rounded-2xl border border-brand-border">
+          <div class="w-12 h-12 rounded-xl bg-brand-accent/15 flex items-center justify-center text-brand-accent mb-4">
+            <i data-lucide="shield" class="w-6 h-6"></i>
+          </div>
+          <h4 class="text-base font-bold text-white mb-2">Защита всех поверхностей</h4>
+          <p class="text-xs text-brand-muted leading-relaxed">
+            Входные двери, окна, стеклопакеты, лестницы и радиаторы тщательно укрываются защитными пленками и оргалитом до старта работ.
+          </p>
+        </div>
+
+        <div class="p-6 bg-brand-card rounded-2xl border border-brand-border">
+          <div class="w-12 h-12 rounded-xl bg-brand-accent/15 flex items-center justify-center text-brand-accent mb-4">
+            <i data-lucide="wind" class="w-6 h-6"></i>
+          </div>
+          <h4 class="text-base font-bold text-white mb-2">Беспылевая шлифовка</h4>
+          <p class="text-xs text-brand-muted leading-relaxed">
+            Все шлифовальные и штробильные работы проводятся строго с подключением промышленных строительных пылесосов Festool и Mirka.
+          </p>
+        </div>
+
+        <div class="p-6 bg-brand-card rounded-2xl border border-brand-border">
+          <div class="w-12 h-12 rounded-xl bg-brand-accent/15 flex items-center justify-center text-brand-accent mb-4">
+            <i data-lucide="sparkles" class="w-6 h-6"></i>
+          </div>
+          <h4 class="text-base font-bold text-white mb-2">Ежедневный клининг</h4>
+          <p class="text-xs text-brand-muted leading-relaxed">
+            В конце каждой рабочей смены мастера убирают инструмент, обеспыливают помещения и выносят накопившийся мусор.
+          </p>
+        </div>
+
+        <div class="p-6 bg-brand-card rounded-2xl border border-brand-border">
+          <div class="w-12 h-12 rounded-xl bg-brand-accent/15 flex items-center justify-center text-brand-accent mb-4">
+            <i data-lucide="trash-2" class="w-6 h-6"></i>
+          </div>
+          <h4 class="text-base font-bold text-white mb-2">Своевременный вывоз мусора</h4>
+          <p class="text-xs text-brand-muted leading-relaxed">
+            Строительный мусор упаковывается в прочные мешки и регулярно вывозится с участка на полигон без захламления придомовой территории.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ИНЖЕНЕРИЯ ЧАСТНОГО ДОМА ================= -->
+  <section id="engineering" class="py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-3xl mb-12">
+        <span class="text-xs font-bold uppercase tracking-widest text-brand-accent">Коммуникации</span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold font-heading text-white mt-2">Инженерия загородного дома</h2>
+        <p class="text-gray-300 mt-3 text-sm leading-relaxed">
+          В частном доме отделка неразрывно связана с коммуникациями. Мы закладываем все трассы до чистовых работ, чтобы исключить повреждение дорогих покрытий.
+        </p>
+      </div>
+
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="bg-brand-card p-6 rounded-2xl border border-brand-border">
+          <i data-lucide="zap" class="w-6 h-6 text-brand-accent mb-3"></i>
+          <h4 class="text-base font-bold text-white mb-2">Электрика</h4>
+          <p class="text-xs text-brand-muted leading-relaxed">
+            Сборка щитов, сценарии освещения, защитная автоматика, резервное питание, фасадные и ландшафтные линии.
+          </p>
+        </div>
+
+        <div class="bg-brand-card p-6 rounded-2xl border border-brand-border">
+          <i data-lucide="droplets" class="w-6 h-6 text-brand-accent mb-3"></i>
+          <h4 class="text-base font-bold text-white mb-2">Сантехника</h4>
+          <p class="text-xs text-brand-muted leading-relaxed">
+            Мастер-санузлы, системы фильтрации и водоподготовки, бойлеры косвенного нагрева, бесшумные трапы.
+          </p>
+        </div>
+
+        <div class="bg-brand-card p-6 rounded-2xl border border-brand-border">
+          <i data-lucide="thermometer" class="w-6 h-6 text-brand-accent mb-3"></i>
+          <h4 class="text-base font-bold text-white mb-2">Отопление и климат</h4>
+          <p class="text-xs text-brand-muted leading-relaxed">
+            Водяные тёплые полы, внутрипольные конвекторы, приточно-вытяжная вентиляция и мультизональный климат.
+          </p>
+        </div>
+
+        <div class="bg-brand-card p-6 rounded-2xl border border-brand-border">
+          <i data-lucide="wifi" class="w-6 h-6 text-brand-accent mb-3"></i>
+          <h4 class="text-base font-bold text-white mb-2">Слаботочка</h4>
+          <p class="text-xs text-brand-muted leading-relaxed">
+            Бесшовный скоростной Wi-Fi по всему дому и участку, видеонаблюдение, домофония и акустические системы.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= КОНТАКТЫ ================= -->
+  <section id="contacts" class="py-20 bg-[#11141A] border-t border-brand-border/60">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid lg:grid-cols-12 gap-8 items-center">
+        
+        <div class="lg:col-span-7 space-y-6">
+          <span class="text-xs font-bold uppercase tracking-widest text-brand-accent">Связь</span>
+          <h2 class="text-3xl sm:text-4xl font-extrabold font-heading text-white">
+            Контакты «Степанов Строй Сочи»
+          </h2>
+          <p class="text-gray-300 text-sm">
+            Работаем по всему Большому Сочи: Сочи Центр, Адлер, Олимпийский парк (Сириус), Красная Поляна, Хоста, Дагомыс.
+          </p>
+
+          <div class="space-y-4 pt-2">
+            <div class="flex items-center gap-3">
+              <i data-lucide="phone-call" class="w-5 h-5 text-brand-accent shrink-0"></i>
+              <div>
+                <div class="text-[11px] text-brand-muted">Телефон для консультаций и выезда инженера</div>
+                <a href="tel:+79000000000" class="text-lg font-bold text-white hover:text-brand-accent transition">8 (800) 000-00-00</a>
+              </div>
+            </div>
+
+            <div class="flex items-center gap-3">
+              <i data-lucide="map-pin" class="w-5 h-5 text-brand-accent shrink-0"></i>
+              <div>
+                <div class="text-[11px] text-brand-muted">Локация офиса и объектов</div>
+                <div class="text-sm font-medium text-white">г. Сочи, выезд инженера по всему побережью</div>
+              </div>
+            </div>
+
+            <div class="flex items-center gap-3">
+              <i data-lucide="send" class="w-5 h-5 text-brand-accent shrink-0"></i>
+              <div>
+                <div class="text-[11px] text-brand-muted">Быстрая связь для отправки чертежей и проектов</div>
+                <div class="flex gap-4 mt-1">
+                  <a href="https://t.me/stepanovstroy_sochi" target="_blank" class="text-xs text-[#229ED9] hover:underline font-semibold">
+                    Telegram: @stepanovstroy_sochi
+                  </a>
+                  <a href="https://wa.me/79000000000" target="_blank" class="text-xs text-[#25D366] hover:underline font-semibold">
+                    WhatsApp чат
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Быстрая отправка в мессенджер -->
+        <div class="lg:col-span-5 bg-brand-card p-8 rounded-3xl border border-brand-border text-center space-y-4">
+          <div class="w-14 h-14 rounded-2xl bg-brand-accent/15 flex items-center justify-center text-brand-accent mx-auto">
+            <i data-lucide="message-square" class="w-7 h-7"></i>
+          </div>
+          <h3 class="text-lg font-bold text-white font-heading">Напишите инженеру напрямую</h3>
+          <p class="text-xs text-brand-muted leading-relaxed">
+            Отправьте планировку или фото вашего дома — сориентируем по смете, этапам и возможности подключения к 101 Group.
+          </p>
+          <div class="grid grid-cols-2 gap-3 pt-2">
+            <a href="https://t.me/stepanovstroy_sochi" target="_blank" class="py-3 bg-[#229ED9]/20 hover:bg-[#229ED9]/30 text-[#229ED9] rounded-xl text-xs font-bold transition flex items-center justify-center gap-1.5">
+              <i data-lucide="send" class="w-3.5 h-3.5"></i> Telegram
+            </a>
+            <a href="https://wa.me/79000000000" target="_blank" class="py-3 bg-[#25D366]/20 hover:bg-[#25D366]/30 text-[#25D366] rounded-xl text-xs font-bold transition flex items-center justify-center gap-1.5">
+              <i data-lucide="message-circle" class="w-3.5 h-3.5"></i> WhatsApp
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ПОДВАЛ ================= -->
+  <footer class="py-8 border-t border-brand-border/40 text-xs text-brand-muted">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <div>© Степанов Строй Сочи. Все права защищены.</div>
+      <div>Прозрачный ремонт домов и коттеджей под ключ через 101 Group</div>
+    </div>
+  </footer>
+
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>
+
+Что добавлено в этой версии:
+
+1.  Блок 101 Group: Наглядно объяснено, как клиент в режиме реального времени
+    видит движение денег, чеки, остаток бюджета и акты сдачи.
+2.  Блок чистоты (Культура производства): Прописана защита чистовых поверхностей
+    оргалитом, работа с пылесосами Festool/Mirka, ежедневная уборка и вывоз
+    мусора.
+3.  Блок объектов в Сочи: Карточки с локациями (Красная Поляна, Сириус, Хоста) и
+    параметрами объектов.
+4.  Интерактивный калькулятор: Пошаговая форма расчета с возможностью выбора
+    района Сочи.
